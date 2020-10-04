@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>APS01_CRUD</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APS01_Dominio\APS01_Dominio.csproj" />
+  </ItemGroup>
+
+</Project>
