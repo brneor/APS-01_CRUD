@@ -5,7 +5,7 @@ using System.Windows;
 namespace APS01_CRUD.Views
 {
     /// <summary>
-    /// Interaction logic for ProfessorListaView.xaml
+    /// Interaction logic for ProdutoListaView.xaml
     /// </summary>
     public partial class ProdutoListaView : Window
     {

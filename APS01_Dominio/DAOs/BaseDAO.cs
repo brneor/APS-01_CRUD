@@ -104,11 +104,11 @@ namespace APS01_Dominio.DAOs
             }
         }
 
-        protected SqlCommand GetComandoId(string sql, int matricula)
+        protected SqlCommand GetComandoId(string sql, int codigo)
         {
             var cmd = new SqlCommand(sql);
 
-            cmd.Parameters.AddWithValue("@CODIGO", matricula);
+            cmd.Parameters.AddWithValue("@CODIGO", codigo);
 
             return cmd;
         }

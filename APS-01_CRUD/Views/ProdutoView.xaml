@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:APS01_CRUD.Views"
         mc:Ignorable="d"
-        Title="ProfessorView" Height="450" Width="800">
+        Title="ProdutoView" Height="450" Width="800">
     <StackPanel>
         <StackPanel Margin="5" DataContext="{Binding Cadastro}">
             <Label>Codigo</Label>
